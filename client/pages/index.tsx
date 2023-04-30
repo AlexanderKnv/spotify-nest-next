@@ -1,18 +1,18 @@
 import React from 'react';
 // import {Button} from "@material-ui/core";
 import Navbar from "../components/Navbar";
-// import MainLayout from "../layouts/MainLayout";
+import MainLayout from "../layouts/MainLayout";
 
 const Index = () => {
     return (
         <>
-            {/* <MainLayout> */}
+            <MainLayout>
                 <Navbar/>
                 <div className="center">
                     <h1>Welcome!</h1>
                     <h3>Here are the best tracks!</h3>
                 </div>
-            {/* </MainLayout> */}
+            </MainLayout>
 
             <style jsx>
                 {`
